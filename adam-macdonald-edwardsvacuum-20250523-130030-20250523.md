@@ -1,3 +1,8 @@
+---
+layout: default
+title: Personalized Outreach
+---
+
 # Personalized Outreach: Adam Macdonald
 
 ![Profile Picture](https://via.placeholder.com/150x150?text=Profile+Pic)
