@@ -1,0 +1,29 @@
+# Jekyll configuration for OutreachProMax
+title: "Fifty Five and Five"
+description: "Personalized outreach documents"
+
+# Use Kramdown for markdown processing
+markdown: kramdown
+highlighter: rouge
+
+# Enable GitHub Pages compatible plugins
+plugins:
+  - jekyll-github-metadata
+
+# Disable unnecessary features
+sass:
+  style: compressed
+
+# Collections and defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile*
+  - vendor/ 
